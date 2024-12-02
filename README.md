@@ -8,7 +8,6 @@ This project consists of two parts:
 - **Frontend**: Implemented with **React**.
 
 ---
-
 ## Backend
 
 The backend is a simple Java Spring Boot application that serves as the API for the Todo List application. It uses an **in-memory database** to store data. Currently, data is not persisted, and there is no authentication or authorization implemented.
@@ -35,42 +34,6 @@ The frontend is implemented with **React**. It communicates with the backend API
     - Add new todo items.
     - Mark a todo item as completed.
     - Edit a todo item.
-
----
-
-## How to Run
-
-### Backend
-1. **Navigate to the `todo-list-backend` folder**:
-   ```
-   cd todo-list-backend
-   ```
-
-2. **Run the Spring Boot backend**:
-   ```
-   mvn spring-boot:run
-   ```
-
-   This will start the backend on `localhost:8080`.
-
-### Frontend
-1. **Navigate to the `todo-list-app` folder**:
-   ```
-   cd todo-list-app
-   ```
-
-2. **Install dependencies**:
-   ```
-   npm install
-   ```
-
-3. **Run the React frontend**:
-   ```
-   npm start
-   ```
-
-   This will start the frontend on `localhost:3000`.
-
 ---
 
 ## Application Flow

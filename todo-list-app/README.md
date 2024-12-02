@@ -10,7 +10,6 @@ This project is the frontend of the Todo application, developed using **React** 
 - **Mark as Completed:** Toggle the completion status of a todo.
 - **Update Todos:** Edit the title of an existing todo.
 - **Delete Todos:** Remove todo that are no longer needed.
-
 ---
 
 ## Prerequisites
@@ -54,6 +53,8 @@ The app communicates with the backend via the following API endpoints:
 - **DELETE `/api/todo/:id`**: Delete a todo by its ID.
 
 These endpoints are implemented in `src/services/todo-service.js` using the `fetch` API.
+
+*The base URL for the backend has been configured in the `.env` file located in the root directory.*
 
 ## Future Work
 - **Pagination for Todos**: Implement pagination to efficiently display a large number of todos.

@@ -1,4 +1,6 @@
-const API_BASE_URL = 'http://localhost:8080/api/todo';
+const process_env = process.env;
+
+const API_BASE_URL = process_env.REACT_APP_API_BASE_URL;
 
 export const getTodos = async () => {
   const response = await fetch(API_BASE_URL, {
