@@ -1,0 +1,75 @@
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #86c5d8;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+  
+.todo-item:hover {
+    background-color: #519bb1;
+}
+  
+.todo-item input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.todo-item input[type='text'] {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.todo-item span {
+    font-size: larger;
+    font-weight: 400;
+}
+  
+.todo-item.completed {
+    color: #888;
+    text-decoration: line-through;
+    background-color: #F0F8FF;
+    opacity: 70%;
+}
+
+.todo-item button {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    padding: 6px 12px;
+    margin: 0px 10px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: right;
+}
+
+.todo-item button:hover {
+    background-color: #f00000;
+}
+
+.todo-item button.button-edit {
+    background-color: #858383;
+}
+
+.todo-item button.button-edit:hover {
+    background-color: #6f6e6e;
+}
+
+.todo-item button.button-update {
+    background-color: #023dc6;
+}
+
+.todo-item button.button-update:hover {
+    background-color: #01309d;
+}
